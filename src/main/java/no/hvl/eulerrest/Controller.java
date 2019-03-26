@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/euler")
+@RequestMapping("/")
 public class Controller {
     @Autowired
     QuestionService qService;
